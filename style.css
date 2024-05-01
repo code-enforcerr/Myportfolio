@@ -1,13 +1,17 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
 body{
     margin: 0;
     padding: 0;
-    background-color: #ffecd1;
-    color: black;
+    background-image: url(Home\ background.jpg);
+    color: #ffecd1;
 }
 
 nav{
     display: flex;
-    border-bottom: 3px solid #ffecd1;
     background-color: #483c32;
     color: #ffecd1;
 }
@@ -84,8 +88,7 @@ span{
 
 footer{
     text-align: center;
-    background-color: #ffecd1;
-    color:#483c32;
+    color:#ffecd1;
     padding: 20px;
 }
 
@@ -93,6 +96,9 @@ button{
     background-color: #ffecd1;
     color: black;
     border: 2px solid black;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
 }
 
 
@@ -112,11 +118,6 @@ form{
     margin: 25px 0 0 50px;
 }
 
-/* .homeh4{
-    justify-content: center;
-    margin-left: 750px;
-} */
-
 #img2{
     width: 300px;
     height: 300px;
@@ -129,8 +130,8 @@ form{
 .footerabout{
     text-align: center;
     font-size: 15px;
-    color: #483c32;
-    margin: 10px;
+    color: #ffecd1;
+    margin: 20px;
 }
 
 h6{
@@ -140,5 +141,45 @@ h6{
 
 .navabout ul li a{
     display: flex;
-    margin-left: 50px;
+    text-decoration: none;
+    padding: 20px;
+    margin: 0 0 30px 20px;
+}
+
+#liabout{
+    font-size: 20px;
+}
+
+.navwork{
+    padding: 0 0 30px;
+    justify-content: center;
+        
+}
+
+.navresume{
+    padding: 0 0 30px;
+    justify-content: center;
+        
+}
+
+.workcontainer{
+    display: flex;
+    justify-content: center;
+    margin: 90px;
+    color: #483c32;
+}
+
+#footerwork{
+    text-align: center;
+    margin: 100px 0 0 0;
+    color: #483c32;
+}
+
+.workbody{
+background-image: url(work\ background.jpg);
+background-repeat: no-repeat;
+}
+
+.footerresume{
+    margin-top: 420px;
 }

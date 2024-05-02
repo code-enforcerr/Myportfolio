@@ -6,8 +6,8 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(Home\ background.jpg);
-    color: #ffecd1;
+    background-image: url(work\ background.jpg);
+    color: #483c32;
 }
 
 nav{
@@ -68,7 +68,7 @@ nav ul li{
     width: 300px;
     height: 300px;
     border-radius: 30%;
-    margin-left: 45px 0 20px 0;
+    margin-left: 45px 0px 20px 0;
     border: 2px solid black;
     box-shadow: 10px 20px 10px black;
 
@@ -79,6 +79,8 @@ nav ul li{
     justify-content: space-evenly;
     padding: 70px;
     margin: 70px 0 0 40px;
+    font-size: large;
+    font-weight: 900;
     
 }
 
@@ -88,7 +90,7 @@ span{
 
 footer{
     text-align: center;
-    color:#ffecd1;
+    color:#483c32;
     padding: 20px;
 }
 
@@ -130,7 +132,7 @@ form{
 .footerabout{
     text-align: center;
     font-size: 15px;
-    color: #ffecd1;
+    color: #483c32;
     margin: 20px;
 }
 
@@ -167,6 +169,8 @@ h6{
     justify-content: center;
     margin: 90px;
     color: #483c32;
+    font-size: larger;
+    font-weight: 900;
 }
 
 #footerwork{
@@ -183,3 +187,20 @@ background-repeat: no-repeat;
 .footerresume{
     margin-top: 420px;
 }
+
+#more{
+    text-decoration: none;
+    color: #483c32;
+}
+
+.footerabout h6 a{
+    text-decoration: none;
+    color: #483c32;
+}
+
+#comingsoon{
+    text-align: center;
+    font-weight: 2000;
+    font-size: larger;
+}
+
